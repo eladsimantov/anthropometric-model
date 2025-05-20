@@ -31,17 +31,6 @@ This toolbox is designed to facilitate biomechanical modeling, human movement an
 git clone https://github.com/eladsimantov/anthropometric-model.git
 2. Add the folder to your MATLAB path:  
 addpath('path_to_anthropometric-model')
-3. (Optional) Package as a MATLAB toolbox for easy installation.
-
-### Usage
-% Create an anthropometric model for a person 1.75 m tall and 70 kg
-model = AnthropometricModel(1.75, 70);
-
-% Get all segment parameters
-params = model.getAllParameters();
-
-% Display thigh segment parameters
-model.displaySegmentParameters('Thigh');
 
 ## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
